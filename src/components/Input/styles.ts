@@ -1,6 +1,8 @@
 import styled, { css } from 'styled-components';
 
-export const Container = styled.div`
+import {IContainerProps} from './index.d'
+
+export const Container = styled.div<IContainerProps>`
   display: flex;
   align-items: center;
 

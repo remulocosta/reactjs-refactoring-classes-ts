@@ -1,6 +1,8 @@
 import styled, { css } from 'styled-components';
 
-export const Container = styled.div`
+import {IContainerProps} from './index.d';
+
+export const Container = styled.div<IContainerProps>`
   background: #f0f0f5;
   border-radius: 8px;
 
